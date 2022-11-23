@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section:nth-of-type(1) {
+  padding-top: 158px;
+  width: 100%;
+  height: 50vh;
+}
+
+div {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  transform: scale();
+}
+#trainImg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+#explosionImg {
+  width: 15rem;
+  position: absolute;
+  right: 22rem;
+  top: 3.5rem;
+  display: none;
+}
+
+#bombe {
+  width: 40px;
+  position: absolute;
+  right: 28.5rem;
+  top: 13.5rem;
+}
+
+#smock {
+  width: 12rem;
+
+  position: absolute;
+  left: 24rem;
+  top: 5.5rem;
+  opacity: 0;
+}
+
+section:nth-of-type(2) {
+  width: 100%;
+  height: 100px;
+  background-color: tomato;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+}
